@@ -14,8 +14,8 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Hello Admin API"', () => {
-      expect(service.getData()).toEqual({ message: 'Hello Admin API' });
+    it('should return "Hello User API"', () => {
+      expect(service.getData()).toEqual({ message: 'Hello User API' });
     });
   });
 });

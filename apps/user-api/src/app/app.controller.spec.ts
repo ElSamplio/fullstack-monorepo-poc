@@ -14,9 +14,9 @@ describe('AppController', () => {
   });
 
   describe('getData', () => {
-    it('should return "Hello API"', () => {
+    it('should return "Hello User API"', () => {
       const appController = app.get<AppController>(AppController);
-      expect(appController.getData()).toEqual({ message: 'Hello Admin API' });
+      expect(appController.getData()).toEqual({ message: 'Hello User API' });
     });
   });
 });
